@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast - JS Project</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center">
+        <div id="main-box" class="text-center p-3">
+
+            <div id="top">
+                <h3>Weather Forecast</h3>
+                <div class="form px-4 py-3">
+                    <p>User email: admin@mail.com <br> User password: admin1234</p>
+                    <label for="email" class="float-left mb-0">Email Address:</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                    <label for="password" class="float-left mb-0 mt-2">Password:</label>
+                    <input type="password" id="password" name="passoword" class="form-control">
+                </div>
+                <button class="btn btn-outline-primary my-3" value="Login" onclick="login()">Login</button>
+            </div>
+            <ul id="login-error"></ul>
+
+            <ul id="weather-ul"> </ul>
+
+            <div class="today-box">
+                <p>
+                <h5>Today's message:</h5> <span id="today-msg" class="py-4"></span></p>
+                <p> Today's date: <span id="today-date"></span> </p>
+                <p> Today's time: <span id="today-time"></span> </p>
+            </div>
+
+
+
+            <script src="./js/jquery.min.js"></script>
+
+            <script src="./js/login.js"> </script>
+        </div>
+    </div>
+
+</body>
+
+</html>

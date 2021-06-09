@@ -1,0 +1,36 @@
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+    url(/background.jpeg) center/cover no-repeat fixed;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#main-box {
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 350px;
+  margin: 2rem;
+}
+
+#login-error {
+  color: #e40830;
+}
+
+.today-box {
+  list-style: none;
+  padding-left: 0;
+  color: #126e82;
+}
+
+#today-msg {
+  color: #39a6a3;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h3 {
+  color: #126e82;
+}
