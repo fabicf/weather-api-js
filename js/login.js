@@ -84,7 +84,7 @@ function appendError(errorPhrase) {
 //if login is correct use api
 function getData() {
   $.ajax({
-    url: `http://dataservice.accuweather.com/forecasts/v1/daily/5day/56186?apikey=FdWXXqQxMeaAhuAqtZA1ejSrqJRXvxUn&metric=true`,
+    url: `https://dataservice.accuweather.com/forecasts/v1/daily/5day/56186?apikey=FdWXXqQxMeaAhuAqtZA1ejSrqJRXvxUn&metric=true`,
   })
     .done(reqListener)
     .fail(failApi);
